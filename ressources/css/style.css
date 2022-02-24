@@ -1,9 +1,45 @@
 /*General*/
-* {
+html {
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+li {
+    display: inline;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+/* section 1*/
+
+#section1 {
+    position: relative;
+    top: 70px;
 }
