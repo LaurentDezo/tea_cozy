@@ -1,15 +1,18 @@
 /*General*/
 html {
-    font-family: Helvetica, sans-serif;
     font-size: 22px;
-    color: seashell;
-    opacity: 0.9;
-    text-align: center;
 }
 
 * {
+    font-family: Helvetica, sans-serif;
     margin: 0;
     background-color: black;
+    color: seashell;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    opacity: 0.9;
 }
 
 /* Header */
@@ -40,8 +43,6 @@ li {
 /* section 1*/
 
 #section1 {
-    position: relative;
-    top: 70px;
     display: flex;
     justify-content: center;
 }
@@ -59,7 +60,38 @@ li {
     width: 100%;
 }
 
-#banner h2,
-#banner h4 {
+h2,
+h4 {
     margin: 20px;
 }
+
+/* section 2 */
+
+#featured {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 700px;
+}
+
+#teacontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    width: 1000px;
+}
+#teacontainer div {
+    margin: 10px;
+}
+div img {
+    height: 200px;
+    width: 300px;
+}
+
+#teacontainer h4 {
+    margin-top: 10px;
+}
+
+/*Locations*/
